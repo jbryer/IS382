@@ -1,0 +1,16 @@
+---
+title: "Support Vector Machines"
+---
+
+
+## Readings
+
+*An Introduction to Statistical Learning* chapter 9.
+
+## Assignments
+
+Download the Rmarkdown file and open it in RStudio. The first part will walk through and explain implementing the key concepts for this week. Complete the questions in the *on your own* section at the end. Submit your PDF to Brightspace.
+
+* Support Vector Machines Lab ([PDF](/assignments/support_vector_machines/support_vector_machines.pdf), [Rmarkdown](/assignments/support_vector_machines/support_vector_machines.Rmd))
+
+

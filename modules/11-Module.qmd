@@ -1,0 +1,14 @@
+---
+title: "Principal Component Analysis"
+---
+
+## Readings
+
+*An Introduction to Statistical Learning* chapter 12.1 and 12.2.
+
+## Assignments
+
+Download the Rmarkdown file and open it in RStudio. The first part will walk through and explain implementing the key concepts for this week. Complete the questions in the *on your own* section at the end. Submit your PDF to Brightspace.
+
+* Principal Component Analysis Lab ([PDF](/assignments/principal_component_analysis/principal_component_analysis.pdf), [Rmarkdown](/assignments/principal_component_analysis/principal_component_analysis..Rmd))
+

@@ -1,0 +1,34 @@
+---
+title: "Textbooks"
+---
+
+
+<!-- Intro to Modern Statistics -->
+
+<a href="resources/imstat.pdf"><img src='/images/ims2.jpeg' alt='Introduction to Modern Statistics' align='left' style="height:125px; padding-left:10px; padding-right:10px;"/></a>
+
+Çetinkaya-Rundel, M, & Hardin, J (2024). *Introduction to Modern Statistics (2nd Ed).* 
+
+> This is an open source textbook and can be downloaded in PDF format [here](resources/imstat.pdf) or a printed copy can be ordered from [Amazon](https://www.amazon.com/Introduction-Modern-Statistics-Mine-Çetinkaya-Rundel/dp/1943450277/ref=sr_1_1?crid=8Z80FIY5Y84N&dib=eyJ2IjoiMSJ9.5UP82bqiJO5LqGMV5HHkZ5u8_zum7RH3UpJ8yYRccZiqALu3X5s67_sPBHL_D7iiSvXKZk6C1EeDFTkLYcXo_h4V3I4q8J3fgIAF3EwNbqlkXMjei87TkQ_H4Ol4G4Cj0Eq7L86QD3IFEq6jPy-w6ZpRQDPyyLkfy3IeVsfiUNT_a2JydSg9SG4Omu9p9Bwar0-WE5nPNzmNM3vQSoV_8bRUZqqzZygmar-zmWcRyww.cN-zWvbyMY7n8zt5EZADPefn4NbyJaEGzdArznuS5F4&dib_tag=se&keywords=intro+to+modern+statistics&qid=1741917247&sprefix=intro+to+modern+statistics%2Caps%2C126&sr=8-1).
+
+<br />
+
+<!-- An Introduction to Statistical Learning -->
+
+<a href="resources/ISLR2.pdf"><img src='/images/ISL2.jpg' alt='An Introduction to Statistical Learning' align='left' style="height:125px; padding-left:10px; padding-right:10px;"/></a>
+
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning with Applications in R (2nd Ed).* 
+
+> This is a free textbook and can be downloaded in PDF format [here](resources/ISLR2.pdf) or a printed copy can be ordered from [Amazon](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1071614177/ref=pd_lpo_d_sccl_1/142-4086558-8449419?pd_rd_w=gf3wv&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=Q2Y29QA2EEVGGB128R3A&pd_rd_wg=yDPg6&pd_rd_r=7fd47a14-2433-4f25-8075-f3b878d0ff8c&pd_rd_i=1071614177&psc=1).
+
+<br />
+
+<!-- R for Data Science -->
+
+<a href="https://r4ds.hadley.nz"><img src='/images/r4ds.jpg' alt='R for Data Science' align='left' style="height:125px; padding-left:10px; padding-right:10px;"/></a>
+</a>
+
+Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2025). *R for Data Science (2nd Ed).*
+
+> This is an open source textbook that [can be accessed on the web](https://r4ds.hadley.nz), or a printed copy can be ordered from [Amazon](https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1492097403/ref=sr_1_1?crid=M79ETHG57G1L&dib=eyJ2IjoiMSJ9.Z1c-Zpi4mNudjpLRyuLhdiV-vmTQxsTksawK5qZqUgg7eerNQQSJqvZp3BkffxdM1ox_XNzTabFcY05ICFTkf9ncIVj_IEWz1rhWS2gil8nY-LPqz9c-dloObLA3FnLDg5WOQe992bNxxijiuIFnKK0Ey5QraCvJOh0cXEAbtlptBwb7o9NXvcvzUuFLoQAPthbWbSUmBMcqVkX2GsQLYhi_T3gUNKggad08D7zUCfs.VwIG-MY-f-HOH75xjof58egaEoy8hhNzLAZxBsV1lT4&dib_tag=se&keywords=r+for+data+science&qid=1741917409&sprefix=r+for+dat%2Caps%2C138&sr=8-1).
+

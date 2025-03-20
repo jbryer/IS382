@@ -1,0 +1,153 @@
+project:
+  type: website
+  output-dir: "docs/"
+  render:
+  - "*.qmd"
+  - "!resources/"
+  - "!common/"
+  - "!slides/"
+  - "!assignments/"
+  pre-render:
+    - build_pdf_slides.R
+    - build_posts.R
+  post-render:
+    - "cp -rf resources/ docs/resources/"
+    - "cp -rf assignments/ docs/assignments/"
+    - "cp -rf slides/ docs/slides/"
+
+website:
+  # announcement:
+  #   content: "[Click here]() to the join the Slack channel."
+  #   # position: below-navbar # above-navbar or below-navbar
+  #   icon: slack #info-circle # https://icons.getbootstrap.com
+  #   dismissable: false
+  #   type: primary # primary, secondary, success, danger, warning, info, light, dark
+
+  page-navigation: true
+  title: "IS382 Predictive Modeling"
+  description: "CUNY School of Professional Studies"
+  # TODO: Update for each semester
+  site-url: "https://jbryer.github.com/IS382"
+
+# TODO: Update for each semester
+  repo-url: https://github.com/jbryer/IS382/
+  repo-subdir: website
+  repo-branch: master
+  repo-actions: [edit, issue]
+
+  open-graph: true
+
+  page-footer:
+    # right: ""
+    # left: ""
+    background: "#325A89"
+
+  sidebar:
+    background: "#eeeeee"
+    logo: "course_logo.png" # TODO: Replace with course logo
+    pinned: true
+    align: center
+    # List of available icons: https://icons.getbootstrap.com
+    tools:
+      - icon: calendar-check
+        href: schedule.qmd
+        text: "Schedule"
+      - icon: book
+        href: textbooks.qmd
+        text: "Textbooks"
+# TODO: Update for each semester
+      - icon: github
+        href: https://github.com/jbryer/IS382
+        text: "Github"
+        target: _blank
+# TODO: Update for each semester
+        # - icon: slack
+      #   href: https://dav5300spring2025.slack.com
+      #   text: "Slack"
+      - icon: link-45deg
+        text: "CUNY"
+        menu:
+          - text: Brightspace LMS
+            url: https://brightspace.cuny.edu
+            target: _blank
+          - text: MSDS Program Page
+            url: https://sps.cuny.edu/academics/graduate/master-science-data-science-ms
+            target: _blank
+          - text: CUNYfirst
+            url: https://cunyfirst.cuny.edu
+            target: _blank
+# TODO: Update for new instructor
+      - icon: envelope
+        text: "Email"
+        url: mailto:jason.bryer@cuny.edu?subject=IS382
+
+    style: "docked"
+    search: true
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: "Announcements"
+      - href: schedule.qmd
+        text: "Schedule"
+      - section: "Course information"
+        contents:
+          - href: syllabus.qmd
+            text: "Syllabus"
+          - href: instructor.qmd
+            text: "Instructor"
+          - href: project.qmd
+            text: "Data Project"
+          - href: software.qmd
+            text: "Software"
+          - href: textbooks.qmd
+            text: "Textbooks"
+      - section: "Topics"
+        contents:
+          - href: modules/01-Module.qmd
+            text: "1 - Introduction to the course"
+          - href: modules/02-Module.qmd
+            text: "2 - Introduction to Modeling"
+          - href: modules/03-Module.qmd
+            text: "3 - Linear regression"
+          - href: modules/04-Module.qmd
+            text: "4 - Multiple regression"
+          - href: modules/05-Module.qmd
+            text: "5 - Logistic Regression"
+          - href: modules/06-Module.qmd
+            text: "6 - Generative Models for Classification"
+          - href: modules/07-Module.qmd
+            text: "7 - Resampling Methods"
+          - href: modules/08-Module.qmd
+            text: "8 - Tree Based Methods"
+          - href: modules/09-Module.qmd
+            text: "9 - Bagging and Random Forests"
+          - href: modules/10-Module.qmd
+            text: "10 - Support Vector Machines"
+          - href: modules/11-Module.qmd
+            text: "11 - Principal Component Analysis"
+          - href: modules/12-Module.qmd
+            text: "12 - Clustering Methods"
+          - href: modules/13-Module.qmd
+            text: "13 - Missing data"
+          - href: modules/14-Module.qmd
+            text: "14 - Bayesian Analysis"
+          - href: modules/15-Module.qmd
+            text: "15 - Wrap up / Final Presentations"
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+    toc: false
+    # include-in-header:
+    #   text: |
+    #     <link href="/fullcalendar-lib/main.css" rel="stylesheet" />
+    #     <script type="text/javascript" src="/fullcalendar-lib/main.js"></script>
+
+freeze: auto
+
+editor: source

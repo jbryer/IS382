@@ -1,0 +1,14 @@
+---
+title: "Missing Data"
+---
+
+
+
+## Readings
+
+Van Buuren & Groothuis-Oudshoorn (2011). mice: Multivariate imputation by chained equations. Journal of Statistical Software. [https://www.jstatsoft.org/article/view/v045i03](https://www.jstatsoft.org/article/view/v045i03).
+
+
+## Assignments
+
+This week you should be preparing your project presentation.

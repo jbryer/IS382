@@ -1,0 +1,17 @@
+---
+title: "Introduction to the Course"
+---
+
+## Readings
+
+*An Introduction to Statistical Learning* chapter 1.
+
+## Assignments
+
+* Complete the formative assessment.
+* Introduce yourself on Slack.
+* Make sure R and RStudio are up-to-date. See the [software](/software.html) page for details.
+
+## Supplemental Videos
+
+{{< video https://www.youtube.com/watch?v=LvySJGj-88U&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=1 >}}

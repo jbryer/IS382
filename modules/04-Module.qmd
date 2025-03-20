@@ -1,0 +1,24 @@
+---
+title: "Multiple Regression"
+---
+
+
+## Readings
+
+*Intro to Modern Statistics* chapter 8.
+
+## Assignments
+
+Download the Rmarkdown file and open it in RStudio. The first part will walk through and explain implementing the key concepts for this week. Complete the questions in the *on your own* section at the end. Submit your PDF to Brightspace.
+
+* Multiple regression Lab ([PDF](/assignments/multiple_regression/multiple_regression.pdf), [Rmarkdown](/assignments/multiple_regression/multiple_regression.Rmd))
+
+## Supplemental Videos
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sQpAuyfEYZg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VB1qSwoF-l0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3KSUeYMKt5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

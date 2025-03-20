@@ -1,0 +1,15 @@
+---
+title: "Generative Methods for Classification"
+---
+
+
+## Readings
+
+*An Introduction to Statistical Learning* chapter 4.
+
+## Assignments
+
+Download the Rmarkdown file and open it in RStudio. The first part will walk through and explain implementing the key concepts for this week. Complete the questions in the *on your own* section at the end. Submit your PDF to Brightspace.
+
+* Generative Models for Classification Lab ([PDF](/assignments/classification/classification.pdf), [Rmarkdown](/assignments/classification.Rmd))
+

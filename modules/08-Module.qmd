@@ -1,0 +1,15 @@
+---
+title: "Tree Based Methods"
+---
+
+
+## Readings
+
+*An Introduction to Statistical Learning* chapter 8.1.
+
+## Assignments
+
+Download the Rmarkdown file and open it in RStudio. The first part will walk through and explain implementing the key concepts for this week. Complete the questions in the *on your own* section at the end. Submit your PDF to Brightspace.
+
+* Tree Based Methods Lab ([PDF](/assignments/decision_trees/decision_trees.pdf), [Rmarkdown](/assignments/decision_trees/decision_trees.Rmd))
+

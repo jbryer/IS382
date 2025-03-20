@@ -1,0 +1,17 @@
+---
+title: "Bagging and Random Forests"
+---
+
+
+
+## Readings
+
+*An Introduction to Statistical Learning* chapter 8.2.
+
+
+## Assignments
+
+Download the Rmarkdown file and open it in RStudio. The first part will walk through and explain implementing the key concepts for this week. Complete the questions in the *on your own* section at the end. Submit your PDF to Brightspace.
+
+* Bagging and Random Forests Lab ([PDF](/assignments/bagging_and_random_forests/bagging_and_random_forests.pdf), [Rmarkdown](/assignments/bagging_and_random_forests/bagging_and_random_forests.Rmd))
+
