@@ -131,8 +131,8 @@ website:
             text: "13 - Missing data"
           - href: modules/14-Module.qmd
             text: "14 - Bayesian Analysis"
-          - href: modules/15-Module.qmd
-            text: "15 - Wrap up / Final Presentations"
+          # - href: modules/15-Module.qmd
+          #   text: "15 - Wrap up / Final Presentations"
 
 format:
   html:
