@@ -7,6 +7,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+*This was adapted from James, Witten, Hastie, and Ibshirani (2021) An Introduction to Statistical Learning.*
+
 In this lab, we perform PCA on the `USArrests` data set, which is part of the base `R` package. The rows of the data set contain the 50 states, in alphabetical order.
 
 ```{r chunk1}

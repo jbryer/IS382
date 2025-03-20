@@ -7,6 +7,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+*This was adapted from James, Witten, Hastie, and Ibshirani (2021) An Introduction to Statistical Learning.*
+
 ### $K$-Means Clustering
 
 The function `kmeans()` performs $K$-means clustering in `R`.  We begin with a simple simulated example in which there truly are two clusters in the data: the first 25 observations have a mean shift relative to the next 25 observations.

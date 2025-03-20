@@ -7,6 +7,9 @@ editor_options:
   chunk_output_type: console
 ---
 
+*This was adapted from James, Witten, Hastie, and Ibshirani (2021) An Introduction to Statistical Learning.*
+
+
 # Cross-Validation and the Bootstrap
 
 In this lab, we explore the resampling techniques covered in this chapter. Some of the commands in this lab may take a while to run on your computer.

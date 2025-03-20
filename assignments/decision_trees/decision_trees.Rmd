@@ -7,7 +7,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-*This is from James, Witten, Hastie, and Ibshirani (2021) section 8.3 beginning on page 353.*
+*This was adapted from James, Witten, Hastie, and Ibshirani (2021) An Introduction to Statistical Learning.*
 
 The `tree` library is used to construct classification and regression trees.
 
