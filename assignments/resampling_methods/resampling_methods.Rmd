@@ -220,5 +220,50 @@ summary(
   )$coef
 ```
 
+\clearpage
+
+# On Your Own
 
 
+1. In Chapter 4, we used logistic regression to predict the probability of default using income and balance on the Default data set. We will now estimate the test error of this logistic regression model using the validation set approach. Do not forget to set a random seed before beginning your analysis.
+
+(a) Fit a logistic regression model that uses income and balance to predict default.
+
+(b) Using the validation set approach, estimate the test error of this model. In order to do this, you must perform the following steps:
+
+  i. Split the sample set into a training set and a validation set.
+  
+  ii. Fit a multiple logistic regression model using only the training observations. 
+  
+  iii. Obtain a prediction of default status for each individual in the validation set by computing the posterior probability of default for that individual, and classifying the individual to the default category if the posterior probability is greater than 0.5.
+  
+  iv. Compute the validation set error, which is the fraction of the observations in the validation set that are misclassified.
+
+(c) Repeat the process in (b) three times, using three different splits of the observations into a training set and a validation set. Comment on the results obtained.
+
+(d) Now consider a logistic regression model that predicts the probability of default using income, balance, and a dummy variable for student. Estimate the test error for this model using the validation set approach. Comment on whether or not including a dummy variable for student leads to a reduction in the test error rate.
+
+
+2. We will now consider the `Boston` housing data set, from the `ISLR2` package.
+
+```{r}
+data(Boston, package="ISLR2")
+```
+
+(a) Based on this data set, provide an estimate for the population mean of `medv.` Call this estimate $\hat{\mu}$.
+
+(b) Provide an estimate of the standard error of $\hat{\mu}$. Interpret this result.  
+*Hint: We can compute the standard error of the sample mean by dividing the sample standard deviation by the square root of the number of observations.*
+
+(c) Now estimate the standard error of $\hat{\mu}$ using the bootstrap. How does this compare to your answer from (b)?
+
+(d) Based on your bootstrap estimate from (c), provide a 95% confidence interval for the mean of `medv.` Compare it to the results obtained using `t.test(Boston$medv)`.  
+*Hint: You can approximate a 95% confidence interval using the formula $[\hat{\mu} - 2SE(\hat{\mu}), \hat{\mu} + 2SE(\hat{\mu})]$.*
+
+(e) Based on this data set, provide an estimate, $\hat{\mu}_{med}$, for the median value of `medv` in the population.
+
+(f) We now would like to estimate the standard error of $\hat{\mu}_{med}$µmed. Unfortunately, there is no simple formula for computing the standard error of the median. Instead, estimate the standard error of the median using the bootstrap. Comment on your findings.
+
+(g) Based on this data set, provide an estimate for the tenth percentile of `medv` in Boston census tracts. Call this quantity $\hat{\mu}_{0.1}$ (You can use the quantile() function.)
+
+(h) Use the bootstrap to estimate the standard error of $\hat{\mu}_{0.1}$ Comment on your findings.

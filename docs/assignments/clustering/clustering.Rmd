@@ -7,6 +7,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+*This was adapted from James, Witten, Hastie, and Ibshirani (2021) An Introduction to Statistical Learning.*
+
 ### $K$-Means Clustering
 
 The function `kmeans()` performs $K$-means clustering in `R`.  We begin with a simple simulated example in which there truly are two clusters in the data: the first 25 observations have a mean shift relative to the next 25 observations.
@@ -289,6 +291,24 @@ table(cutree(hc.out, 4), nci.labs)
 ```
 
 Not surprisingly, these results are different from the ones that we obtained when we performed hierarchical clustering on the full data set. Sometimes performing clustering on the first few principal component score vectors can give better results than performing clustering on the full data.  In this situation, we might view the principal component step as one of denoising the data. We could also perform $K$-means clustering on the first few principal component score vectors rather than the full data set.
+
+\clearpage
+
+# On Your Own
+
+1. Consider the USArrests data. We will now perform hierarchical clustering on the states.
+
+```{r}
+data("USArrests")
+```
+
+(a) Using hierarchical clustering with complete linkage and Euclidean distance, cluster the states.
+
+(b) Cut the dendrogram at a height that results in three distinct clusters. Which states belong to which clusters?
+
+(c) Hierarchically cluster the states using complete linkage and Euclidean distance, after scaling the variables to have standard deviation one.
+
+(d) What effect does scaling the variables have on the hierarchical clustering obtained? In your opinion, should the variables be scaled before the inter-observation dissimilarities are computed? Provide a justification for your answer.
 
 
 

@@ -253,6 +253,20 @@ cor(Xapp[ismiss], X[ismiss])
 
 In this lab, we implemented Algorithm 12.1 ourselves for didactic purposes. However, a reader who wishes to apply matrix completion to their data should use the `softImpute` package on `CRAN`, which provides a very efficient implementation of a generalization of this algorithm.
 
+\clearpage
+
+# On Your Own
+
+In Section 12.2.3, a formula for calculating PVE was given in Equation 12.10. We also saw that the PVE can be obtained using the sdev output of the prcomp() function. On the USArrests data, calculate PVE in two ways:
+
+```{r}
+data("USArrests")
+```
+
+(a) Using the sdev output of the prcomp() function, as was done in Section 12.2.3.
+
+(b) By applying Equation 12.10 directly. That is, use the prcomp() function to compute the principal component loadings. Then, use those loadings in Equation 12.10 to obtain the PVE.
+
 
 
 

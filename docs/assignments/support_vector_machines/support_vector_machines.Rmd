@@ -7,6 +7,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+*This was adapted from James, Witten, Hastie, and Ibshirani (2021) An Introduction to Statistical Learning.*
+
 We use the `e1071` library in `R` to demonstrate the support vector classifier and the SVM. Another option is the `LiblineaR` library,  which is useful for very large linear problems.
 
 ## Support Vector Classifier
@@ -341,5 +343,57 @@ table(pred.te, dat.te$y)
 
 We see that using `cost = 10` yields two test set errors on this data.
 
+\clearpage
+
+# On Your Own
+
+1. In this problem, you will use support vector approaches in order to predict whether a given car gets high or low gas mileage based on the `Auto` data set.
+
+```{r}
+data("Auto", package="ISLR2")
+```
+
+(a) Create a binary variable that takes on a 1 for cars with gas mileage above the median, and a 0 for cars with gas mileage below the median.
+
+(b) Fit a support vector classifier to the data with various values of cost, in order to predict whether a car gets high or low gas
+mileage. Report the cross-validation errors associated with different values of this parameter. Comment on your results. Note you will need to fit the classifier without the gas mileage variable to produce sensible results.
+
+(c) Now repeat (b), this time using SVMs with radial and polynomial basis kernels, with different values of gamma and degree and cost. Comment on your results.
+
+(d) Make some plots to back up your assertions in (b) and (c). Hint: In the lab, we used the 1 function for svm objects only in cases with p = 2. When p > 2, you can use the 1 function to create plots displaying pairs of variables at a time.
+Essentially, instead of typing
+
+```{r, eval=FALSE}
+plot(svmfit , dat)
+```
+
+where `svmfit` contains your fitted model and `dat` is a data frame containing your data, you can type
+
+```{r, eval=FALSE}
+plot(svmfit , dat , x1 ~ x4)
+```
+
+in order to plot just the first and fourth variables. However, you must replace `x1` and `x4` with the correct variable names. To find out more, type `?plot.svm`.
 
 
+2. This problem involves the `OJ` data set which is part of the `ISLR2` package.
+
+```{r}
+data("OJ", package = "ISLR2")
+```
+
+(a) Create a training set containing a random sample of 800 observations, and a test set containing the remaining observations.
+
+(b) Fit a support vector classifier to the training data using `cost = 0.01`, with `Purchase` as the response and the other variables as predictors. Use the `summary()` function to produce summary statistics, and describe the results obtained.
+
+(c) What are the training and test error rates?
+
+(d) Use the `tune()` function to select an optimal `cost.` Consider values in the range 0.01 to 10.
+
+(e) Compute the training and test error rates using this new value for `cost.`
+
+(f) Repeat parts (b) through (e) using a support vector machine with a radial kernel. Use the default value for `gamma.`
+
+(g) Repeat parts (b) through (e) using a support vector machine with a polynomial kernel. Set `degree = 2`.
+
+(h) Overall, which approach seems to give the best results on this data?

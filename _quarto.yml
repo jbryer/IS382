@@ -30,7 +30,7 @@ website:
   site-url: "https://jbryer.github.com/IS382"
 
 # TODO: Update for each semester
-  repo-url: https://github.com/jbryer/IS382/
+  repo-url: https://jbryer.github.io/IS382/
   repo-subdir: website
   repo-branch: master
   repo-actions: [edit, issue]
